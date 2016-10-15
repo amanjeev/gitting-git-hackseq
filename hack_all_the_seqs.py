@@ -6,4 +6,5 @@ def hack_what(thing_to_hack=None):
         thing_to_hack = "Hack all the Seqs!"
     return thing_to_hack
 
-
+if __name__ == '__main__':
+    hack_what()
